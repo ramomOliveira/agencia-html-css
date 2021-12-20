@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Teko", sans-serif;
+}
+
+.title-1 {
+  font-size: 30px;
+  color: #81D959;
+}
+
+.logo img {
+  height: 100px;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.container .nav .menu ul li a:hover {
+  color: #0511F2;
+}
+
+.container .nav .menu ul li > a:active {
+  color: #0511F2;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  margin-right: 100px;
+}
+
+.menu ul li {
+  margin-left: 30px;
+}
+
+.menu ul li a {
+  color: #035AA6;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 50px;
+}
+
+.card {
+  
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 4px;
+  padding: 20px;
+  
+}
+
+.card:hover {
+  border: 2px solid #035AA6;
+}
+
+.descricao{
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  color: #000;
+  font-size: 25px;
+  line-height: 25px;
+}
+
+
+  
+  .direitos {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+    height: 86px;
+    background-color: #82d9596b;
+    justify-content: center;
+    align-items: center;
+    color: #0511F2;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    border-top: 1px solid rgba(180, 180, 180, 0.2);
+  }
