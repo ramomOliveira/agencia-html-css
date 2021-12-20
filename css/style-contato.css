@@ -18,7 +18,7 @@
       font-weight: 400;
   }
 
-  .title-amarelo {
+  .title {
       font-size: 50px;
       line-height: 60px;
       font-weight: 500;
@@ -35,7 +35,7 @@
   }
   
   .container .nav .menu ul li a:hover {
-    color: #e8b148;
+    color: #0511F2;
   }
 
   .nav {
@@ -77,16 +77,18 @@
   .contato .top input {
       width: 100%;
       padding: 10px;
-      background-color: #474849;
-      border: 0;
+      border-color:#47484985;
+      border: 1;
+      border-radius: 4px;
   }
 
   .contato .bottom input,
   .contato .bottom textarea {
       width: 100%;
       padding: 10px;
-      background-color: #474849;
-      border: 0;
+      border-color:#47484985;
+      border: 1;
+      border-radius: 4px;
       margin-bottom: 8px;
   }
 
