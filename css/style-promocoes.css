@@ -100,3 +100,10 @@ body {
     font-weight: 400;
     border-top: 1px solid rgba(180, 180, 180, 0.2);
   }
+
+  .footer{
+    display: flex;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
